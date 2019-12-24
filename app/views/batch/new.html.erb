@@ -1,0 +1,15 @@
+
+
+<% if @batch.errors.any? %>
+  <%@batch.errors.full_messages.each do |m| %>
+    <div class="alert"><%=m%></div>
+  <%end%>
+<% else %>
+  <%= flash['message'] %>
+<%end %>
+
+<h1>Batch#new</h1>
+<%= form_with(local:true) do |form| %>
+  <%= form.file_field :file %>
+  <%= form.submit %>
+<% end %>
