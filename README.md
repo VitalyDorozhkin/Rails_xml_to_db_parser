@@ -1,3 +1,3 @@
 # README
 
-Database schema: https://app.dbdesigner.net/designer/schema/293669
+Database schema: https://dbdesigner.page.link/gXgn36K9zqfQFDuP8
